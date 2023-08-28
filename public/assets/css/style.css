@@ -1,0 +1,370 @@
+label.error{color: red !important;}
+.space_top{margin-bottom:10px;}
+
+
+/* FAHAD CSS */
+@font-face{
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-family:OpenSans-Regular;
+}
+@font-face{
+    src: url('../fonts/OpenSans-Semibold.ttf');
+    font-family:OpenSans-Semibold;
+}
+/*-----------HEADER SECTION---------------*/
+ 
+
+ .logo{padding: 13px 0px 12px 0px;}
+ .menu{padding-top: 16px;float: right;}
+.menu ul li{
+    display: inline-block;
+    padding: 13px 52px 14px 0;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family:OpenSans-Regular;
+    color: #000;
+    font-size: 16px;
+}
+
+/*-----------BANNER SECTION---------------*/
+
+.bg{
+    background-color:#f1f5f8;
+    height: 41px;
+}
+.bg-banner{
+    background-image: url('../images/Registration Form.jpg');
+    min-height: 192px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+.bg-banner h2 {
+    font-family:OpenSans-Semibold;
+    color: #fff;
+    text-align:center;
+    padding-top:80px;
+    margin: 0;
+}
+.bg-c{
+    background-color: #252525;
+}
+.banner2{background-image: url('../images/Volunteer-Sign-Up-Form.jpg');}
+
+
+
+/*-----------FOOTER SECTION---------------*/
+
+
+
+.f-logo{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+.f-logo p{
+    font-family:OpenSans-Regular;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 22px;
+    width: 509px;
+    margin: 0px auto;
+}
+.icon{
+    padding: 13px 0 0 0;
+}
+.icon i{
+    padding: 7px;
+    font-size: 16px;
+    color: #e37423;
+    background-color: #fff;
+    border-radius: 451px;
+    margin: 1px;
+    width: 32px;
+    height: 32px;
+}
+.icon i:hover{
+    background-color:#e37423;
+    color: #fff;
+}
+.copy{
+    background-color: #000;
+    text-align: center;
+}
+.copy p{
+    color: #fff;
+    font-family:OpenSans-Regular;
+    padding: 25px 0px 25px 0px;
+    margin: 0;
+    font-size: 18px;
+}
+.copy p span{
+    color: #e37423;
+}
+.menu_bar{display: none;}
+label, .radio label, .checkbox label{font-size: 16px !important; font-weight: normal;}
+@media screen and (min-width: 1024px){
+	label, .radio label, .checkbox label{font-size: 16px !important;}
+	text-medium{font-size: 14px;}
+	text-italic{font-size: 15px;}
+	text-bold{font-size: 14px;}
+	.page-header h2{font-size: 31px;}	
+	.page-header h1{font-size: 30px;}
+	#rootwizard .nav-pills li a{font-size: 20px;}
+	.navbar{margin-bottom:38px;	}
+}
+
+
+/*-=responsive_css=-*/
+
+@media screen and (max-width: 1024px) and (min-width: 992px){
+.nav_main{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;	
+	}
+.logo_main{
+    width: 100%;
+	}	
+.main_nav{	
+    float: none;
+    width: auto;	
+	}
+.main_parent{
+	float: none !important;
+	}	
+.main_nav ul li a{
+    padding: 20px 12px	
+	}
+.footer_main{
+	padding-left: 15px;
+	padding-right: 15px;
+	}
+.footer_col h3{
+	font-size:18px;	
+	}
+.footer_col{
+    width: 33% !important;	
+	}
+.copy-r{
+	padding-left:15px;
+	padding-right:15px;	
+	}
+.copy-r p{
+	text-align: center;	
+	}
+.footer_para p{
+    font-size: 15px;	
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+.nav_main{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;	
+	}
+.logo_main{
+    width: 100%;
+	}	
+.main_nav{	
+    float: none;
+    width: auto;	
+	}
+.main_parent{
+	float: none !important;
+	}	
+.main_nav ul li a{
+    padding: 20px 12px	
+	}
+.footer_main{
+	padding-left: 15px;
+	padding-right: 15px;
+	}
+.footer_col h3{
+	font-size:18px;	
+	}
+.footer_col{
+    width: 33% !important;	
+	}
+.copy-r{
+	padding-left:15px;
+	padding-right:15px;	
+	}
+.copy-r p{
+	text-align: center;	
+	}
+.footer_para p{
+    font-size: 15px;	
+	}
+}
+@media screen and (max-width: 767px) and (min-width: 320px){
+.main_nav{
+	width: auto;
+	float: none;
+	}
+.nav_main{
+	padding:0px !important;	
+	}
+.main_nav ul li{
+    padding: 0px;
+    display: block;
+    position: relative;
+	}
+.logo_main{
+    width: auto;
+    float: none;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*border-bottom: 1px #fff solid;*/
+    padding-bottom: 10px;
+	}
+.main_nav ul li a{
+    padding: 10px 15px;
+    width: 277px;
+	}	
+.main_nav ul{
+	float: none;
+	position: relative;
+	width: 100%;
+	opacity: 1;
+	
+	}
+ul.sub-menu{
+	display: none;	
+	}
+.row{
+	margin: 0px;
+	}
+.container{
+	padding: 0px;
+	}
+.menu_bar{
+	display: block;
+	float: right;
+	}
+.logo_anc{
+    float: left;		
+	}
+.menu_bar a i{
+    color: #fff;
+    font-size: 30px;
+	}
+.main_nav ul li:hover a:after{
+	display: none;
+	}
+ul.sub-menu:before{
+	display: none;
+	}
+ul.sub-menu:after{
+	display: none;
+	}
+ul.sub-menu li{
+	background: transparent;
+	}
+.trigger_menu{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 39px;
+    text-align: center;
+    line-height: 39px;	
+	}
+.trigger_menu::after {
+    font-family: FontAwesome;
+    content: "\f067";
+    color: #fff;
+	}
+.main_nav ul li:hover ul.sub-menu{
+	transition:none;
+	}
+.main_nav ul{
+	display: none;	
+	}
+.footer_main{
+    padding: 0px;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+	}
+.footer_col{
+    width: 100%;
+    padding-left:15px;	
+	}
+.footer_logo{
+    padding-bottom: 20px;	
+	}	
+.footer_col h3:before{
+	left:0px;
+	right: 0px;
+	margin: 0px auto;
+	}
+.footer_anc a{
+    margin: 0px auto;
+    margin-bottom: 35px;	
+	}
+.butn a{
+	margin:0px auto;	
+	}
+.footer_para ul li:before{
+	display: none;
+	}
+.footer_para ul li:before{
+    padding-left: 0px;	
+	}
+.footer_para ul li a{
+	padding-left:0px;	
+	}
+.copy-r{
+	padding-left: 15px;
+	padding-right: 15px;
+	}
+.copy-r p{
+    text-align: center;
+    font-size: 13px;	
+	}
+#veteran-form{
+	padding-left: 10px;
+    padding-right: 10px;	
+	}
+.bg-banner{
+	padding-left: 15px;
+    padding-right: 15px;
+	}
+.bg-banner h2{
+	font-size: 22px ;	
+	}
+.sub-text{
+display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: left;	
+	}
+.pager{
+    margin: 20px 15px;	
+	}
+.info-text{
+    padding-left: 10px;	
+	}
+h5.border-top{
+    padding-left: 15px;
+    padding-right: 15px;	
+	}
+#Status_Information .col-md-2{
+    width: 71%;
+    float: left;	
+	}
+}
+.v_profile{
+	height:37px;
+}
+
+.pet_radio > label:first-child{
+	padding-left: 0px;
+}

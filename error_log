@@ -1,0 +1,1 @@
+[12-Sep-2018 16:49:43 UTC] PHP Fatal error:  Class 'PDO' not found in /home/groot/public_html/ncvsd.accunity.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 1236
